@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>D.W.Renov – Rénovation clé en main</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="D.W.Renov – entreprise de rénovation clé en main. Travaux de qualité, devis gratuit.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #fafafa;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+                        url("https://images.unsplash.com/photo-1503387762-592deb58ef4e") center/cover;
+            color: white;
+            text-align: center;
+            padding: 90px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 30px;
+            background-color: #c6a15b;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        /* SECTIONS */
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+
+        /* SERVICES */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .box {
+            background: white;
+            padding: 25px;
+            border-radius: 6px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .box h3 {
+            margin-top: 0;
+        }
+
+        /* PRICES */
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #c6a15b;
+        }
+
+        /* PORTFOLIO */
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .portfolio div {
+            height: 180px;
+            background: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-style: italic;
+        }
+
+        /* CONTACT */
+        .contact {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .contact a {
+            color: #c6a15b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #000;
+            color: #aaa;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>D.W.Renov</h1>
+    <p>Entreprise de rénovation clé en main<br>
+       Qualité, sérieux et respect des délais</p>
+    <a href="tel:+33600000000" class="btn">📞 Appeler maintenant</a>
+</div>
+
+<!-- SERVICES -->
+<section>
+    <h2>Nos prestations</h2>
+    <div class="grid">
+        <div class="box">
+            <h3>Rénovation complète</h3>
+            <p>Gestion totale de vos travaux, du début à la fin.</p>
+        </div>
+        <div class="box">
+            <h3>Peinture & finitions</h3>
+            <p>Résultat propre, moderne et durable.</p>
+        </div>
+        <div class="box">
+            <h3>Salle de bain</h3>
+            <p>Création et rénovation sur mesure.</p>
+        </div>
+        <div class="box">
+            <h3>Électricité & plomberie</h3>
